@@ -1,0 +1,47 @@
+h1 {
+  color: #4b4949;
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  box-shadow: 2px 2px 2px 2px #8b8989;
+  background-color: #aba2a2;
+  border-radius: 15px;
+  padding: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  margin: 0px 400px 0px 400px;
+  background-color: rgb(199, 207, 205);
+  border-radius: 20px;
+}
+.List {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #8b8989;
+}
+::placeholder {
+  color: darkgray;
+  font-size: 16px;
+}
+input {
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #d1b4b4;
+  padding: 10px;
+  font-size: 16px;
+}
+.listDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
