@@ -24,11 +24,6 @@ h1 {
   border-radius: 10px;
 }
 
-li {
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px #8b8989;
-}
 ::placeholder {
   color: darkgray;
   font-size: 16px;
@@ -44,4 +39,8 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #8b8989;
 }
